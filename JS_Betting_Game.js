@@ -27,7 +27,7 @@ $(document).ready(function() {
             $('#win_or_lose').text("Your guess was wrong, you lost the bet.");
             bankroll -= bet;
             $('#dollars_in_bank').text("You have " + bankroll + " dollars left to bet.");
-            if(bankroll == 0) {
+            if(bankroll == 0) { //added enhancement
                 $('h1').text("GAME OVER");
                 $('h1').css({ "font-size": "50" })
                 $('form').fadeOut();
