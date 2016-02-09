@@ -39,5 +39,3 @@ $(document).ready(function() {
         clearForm();
     });
 });
-//add (fade out) so the background and form fades and 
-//says GAME OVER in really big red letters
