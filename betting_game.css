@@ -1,42 +1,42 @@
 body {
-    background-image: url("http://i.imgur.com/UYNYa9a.jpg");
-    background-repeat: no-repeat;
+  background-image: url("http://i.imgur.com/UYNYa9a.jpg");
+  background-repeat: no-repeat;
 }
 
 h1 {
-    font-family: Roboto;
-    color: #FFFFFF;
-    font-size: 30;
-    margin-top: 100;
-    margin-left: 350;
+  font-family: Roboto;
+  color: #FFFFFF;
+  font-size: 30;
+  margin-top: 100;
+  margin-left: 350;
 }
 
 form {
-    font-family: Roboto;
-    color: #FFFFFF;
-    font-size: 25;
-    margin-left: 400;
+  font-family: Roboto;
+  color: #FFFFFF;
+  font-size: 25;
+  margin-left: 400;
 }
 
 #button {
-    border: none;
-    color: #FFFFFF;
-    padding: 10;
-    font-family: Roboto;
-    font-size: 25;
-    background-color: #880000;
+  border: none;
+  color: #FFFFFF;
+  padding: 10;
+  font-family: Roboto;
+  font-size: 25;
+  background-color: #880000;
 }
 
 #win_or_lose {
-    font-family: Roboto;
-    color: #FFFFFF;
-    font-size: 30;
-    margin-left: 400;
+  font-family: Roboto;
+  color: #FFFFFF;
+  font-size: 30;
+  margin-left: 400;
 }
 
-#dollars_in_bank{
-    font-family: Roboto;
-    color: gray;
-    font-size: 30;
-    margin-left: 400;
+#dollars_in_bank {
+  font-family: Roboto;
+  color: gray;
+  font-size: 30;
+  margin-left: 400;
 }

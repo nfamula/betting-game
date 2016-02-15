@@ -1,24 +1,29 @@
 <html>
-  <head> 
+
+  <head>
     <script src="jquery.min.js"></script>
     <script src="JS_Betting_Game.js"></script>
     <link rel="stylesheet" type="text/css" href="betting_game.css">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto">
   </head>
+
   <body>
-  <h1>Make a bet. Good luck!</h1>
-  <form id="betting" action="#">
-    <br>
-    Enter a dollar amount between 1 and 100 to bet<br>
-    <input type="number" id="bet"><br>
-    <br>
-    Guess a number between 1 and 10<br>
-    <input type="number" id="guess"><br>
-    <br>
-    <input id="button" type="submit" value="Place bet!">
-  </form>
+    <h1>Make a bet. Good luck!</h1>
+    <form id="betting" action="#">
+        <br> Enter a dollar amount between 1 and 100 to bet
+        <br>
+        <input type="number" id="bet">
+        <br>
+        <br> Guess a number between 1 and 10
+        <br>
+        <input type="number" id="guess">
+        <br>
+        <br>
+        <input id="button" type="submit" value="Place bet!">
+    </form>
     <span id="win_or_lose"></span>
     <br>
     <span id="dollars_in_bank"></span>
   </body>
+
 </html>
