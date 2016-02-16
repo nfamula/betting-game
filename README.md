@@ -1,5 +1,5 @@
 # Betting Game
-Completed project as a part of Lighthouse Labs coursework week 6.
+Completed assignment as a part of Lighthouse Labs coursework week 6.
 
 Simple betting game to run in the browser.
 
