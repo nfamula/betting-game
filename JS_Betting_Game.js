@@ -9,7 +9,7 @@ $(document).ready(function() {
     $('#betting')[0].reset();
   }
 
-  winningNumber = (randomNumber(1, 10));
+  var winningNumber = (randomNumber(1, 10));
 
   //the button is clicked and the bet is made
   $("#betting").on('submit', function(event) {
@@ -19,16 +19,16 @@ $(document).ready(function() {
     console.log(bet, guess);
     //compare the guess to the winningNumber and win or lose bet
     if (bankroll > 0) {
-      if (guess == winningNumber) {
+      if (guess === winningNumber) {
         $('#win_or_lose').text("Your guess was correct! You won the bet!");
         bankroll = (bankroll + bet);
         $('#dollars_in_bank').text("You have " + bankroll + " dollars left to bet.");
       } else {
         $('#win_or_lose').text("Your guess was wrong, you lost the bet.");
-        bankroll -= bet;
+        bankroll = (bankroll - bet);
         $('#dollars_in_bank').text("You have " + bankroll + " dollars left to bet.");
         //enhancement : fadeout and show GAME OVER
-        if (bankroll == 0) {
+        if (bankroll <= 0) {
           $('h1').text("GAME OVER");
           $('h1').css({
             "font-size": "50"
